@@ -1,0 +1,191 @@
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('FontsFree-Net-roxborough-cf-bold.ttf') format('truetype');
+}
+
+
+header {
+    background-color: #FF7BAC;
+    font-size: 600%;
+    color: gainsboro;
+    text-align: center;
+    padding: 1%;
+}
+
+body {
+    font-family: 'MinhaFonte', fallback, sans-serif;
+    background-color: #8CD2FA;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+ul {
+    color: gainsboro;
+    margin-left: 8%;
+    float: left;
+}
+
+.cardapio {
+    display: block;
+    margin-top: 38px;
+    background-color: #FF7BAC;
+    text-align: center;
+    padding: 16px;
+    font-size: 38px;
+}
+
+.delivery {
+    display: block;
+    margin-top: 20px;
+    background-color: #FF7BAC;
+    text-align: center;
+    padding: 16px;
+    font-size: 38px;
+}
+
+.encomenda {
+    display: block;
+    margin-top: 20px;
+    background-color: #FF7BAC;
+    text-align: center;
+    font-size: 38px;
+    padding: 16px;
+    white-space: nowrap;
+
+}
+
+.localização {
+    display: block;
+    margin-top: 20px;
+    background-color: #FF7BAC;
+    text-align: center;
+    padding: 16px;
+    font-size: 38px;
+}
+
+.whatsapp {
+    display: block;
+    margin-top: 20px;
+    background-color: #FF7BAC;
+    text-align: center;
+    padding: 16px;
+    font-size: 38px;
+}
+
+.comentarioGeral {
+    width: 36%;
+    padding: 2%;
+    border-radius: 40px;
+    background-color: white;
+    float: right;
+    margin-right: 10%;
+    margin-top: 40px;
+    color: rgb(67, 67, 67);
+}
+
+.mulher img {
+    width: 10%;
+}
+
+.mulher h2 {
+    float: right;
+    font-size: 22px;
+    margin-right: 56%;
+    margin-top: 2%;
+}
+
+.mulher p {
+    font-size: 18px;
+    margin-top: 2px;
+
+}
+
+.divisoria img {
+    width: 100%;
+    height: 3px;
+    margin-top: 3%;
+}
+
+.homem img {
+    width: 10%;
+    margin-top: 2%;
+
+}
+
+.homem h2 {
+    float: right;
+    font-size: 22px;
+    margin-right: 49%;
+    margin-top: 4%;
+}
+
+.homem p {
+    font-size: 18px;
+    margin-top: 2px;
+}
+
+.camera {
+    position: absolute;
+    display: inline;
+    margin-top: 25%;
+    margin-left: 10%;
+}
+
+.camera p {
+    float: left;
+    color: #FF7BAC;
+    font-size: 22px;
+    margin-right: 57%;
+    text-align: center;
+    white-space: nowrap;
+    text-shadow: -1px 0 rgb(233, 233, 233), 0 1px rgb(233, 233, 233), 1px 0 rgb(233, 233, 233), 0 -1px white;
+
+}
+
+
+.imagemCamera {
+    width: 100%;
+    position: absolute;
+    display: inline;
+    margin-top: 24%;
+    margin-left: 30%;
+}
+
+.imagemCamera img {
+    width: 8%;
+}
+
+
+
+.instagram {
+    position: absolute;
+    display: inline;
+    margin-top: 31%;
+    margin-left: 10%;
+}
+
+.instagram img {
+    width: 6%;
+}
+
+.instagram p {
+    float: right;
+    color: rgb(239, 239, 239);
+    font-size: 40px;
+    margin-right: 55%;
+
+}
+
+.rosquinha {
+    z-index: 1;
+    position: absolute;
+    display: inline-block;
+    margin-top: 18%;
+    margin-left: 38%;
+
+}
+
+.rosquinha img {
+    width: 132%;
+}
